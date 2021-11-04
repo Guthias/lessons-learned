@@ -9,20 +9,52 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Estilos referentes ao Cabeçalho e seus conteudos */
 header {
   position: fixed;
   top: 0;
-  background-color: rgb(34, 46, 80);
   color: white;
-  padding: 30px 20px;
   width: 100%;
   text-align: center;
+  background-color: rgb(34, 46, 80);
 }
 
 header h1 {
   margin: 0;
 }
 
+.title-area {
+  padding: 30px 20px;
+  padding-bottom: 0;
+}
+
+nav {
+  background-color: rgb(30, 30, 30);
+  margin-top: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: background ease-in-out 0.2s;
+}
+
+nav ul li a:hover {
+  background-color: rgb(0, 121, 145);
+}
+
+/* Estilos referentes ao corpo da pagina */
 main {
   margin-top: 150px; /* Margem para não ser coberto pelo header */
 }
@@ -45,7 +77,7 @@ footer {
   text-align: center;
 }
 
-footer a {
+.credit-footer {
   color: white;
   text-decoration: underline;
   font-weight: 700;
