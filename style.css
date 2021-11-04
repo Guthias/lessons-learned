@@ -1,35 +1,38 @@
-body, html{
+body , html {
   min-height: 100%;
 }
+
 body {
   margin: 0;
   height: 100vh;
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
-header{
+
+header {
   position: fixed;
   top: 0;
-  background-color: #222E50;
-  color: #fff;
+  background-color: rgb(34, 46, 80);
+  color: white;
   padding: 30px 20px;
   width: 100%;
   text-align: center;
 }
-header h1{
+
+header h1 {
   margin: 0;
 }
 
-main{
-  margin-top: 150px; /*Margem para não ser coberto pelo header*/
+main {
+  margin-top: 150px; /* Margem para não ser coberto pelo header */
 }
 
-#minha_foto{
+#minha_foto {
   height: 200px;
   width: 200px;
   display: block;
   margin: 0 auto;
   border-radius: 100%;
-  outline: 10px solid #222E50;
-  border: 10px solid #007991;
+  outline: 10px solid rgb(34, 46, 80);
+  border: 10px solid rgb(0, 121, 145);
 }
