@@ -36,3 +36,17 @@ main {
   outline: 10px solid rgb(34, 46, 80);
   border: 10px solid rgb(0, 121, 145);
 }
+
+footer {
+  background-color: rgb(34, 46, 80);
+  font-size: 22px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+}
