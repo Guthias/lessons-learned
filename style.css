@@ -80,12 +80,12 @@ main h2 {
   font-size: 1.25em;
 }
 
-.row-article article {
+.row-article .lado-esquerdo {
   display: inline-block;
   width: 65%;
 }
 
-.row-article aside {
+.row-article .lado-direito {
   width: 30%;
   vertical-align: top;
   float: right;
