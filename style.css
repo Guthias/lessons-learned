@@ -7,6 +7,7 @@ body {
   height: 100vh;
   background-color: rgb(253, 251, 251);
   font-family: Roboto, sans-serif;
+  font-size: 20px;
 }
 
 /* Estilos referentes ao Cabeçalho e seus conteudos */
@@ -21,6 +22,7 @@ header {
 
 header h1 {
   margin: 0;
+  font-size: 2em;
 }
 
 .title-area {
@@ -56,7 +58,12 @@ nav ul li a:hover {
 
 /* Estilos referentes ao corpo da pagina */
 main {
-  margin-top: 150px; /* Margem para não ser coberto pelo header */
+  margin: 200px auto 0; /* Margem para centralizar e não ser coberto pelo Header */
+  width: 80%;
+}
+
+.image-area {
+  margin-bottom: 30px;
 }
 
 #minha_foto {
@@ -69,12 +76,39 @@ main {
   border: 10px solid rgb(0, 121, 145);
 }
 
+main h2 {
+  font-size: 1.25em;
+}
+
+.row-article article {
+  display: inline-block;
+  width: 65%;
+}
+
+.row-article aside {
+  width: 30%;
+  vertical-align: top;
+  float: right;
+}
+
+.row-article h2 {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.row-article p {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
 footer {
   background-color: rgb(34, 46, 80);
-  font-size: 22px;
   padding: 20px;
   color: white;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .credit-footer {
