@@ -56,6 +56,15 @@ nav ul li a:hover {
   background-color: rgb(0, 121, 145);
 }
 
+/** Resolvendo o problema do header fixo ficar por cima do link interno
+  * Precisei de procurar no Stackoverflow
+  * Source: https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors
+*/
+
+#article:target {
+  scroll-margin-top: 160px;
+}
+
 /* Estilos referentes ao corpo da pagina */
 main {
   margin: 200px auto 0; /* Margem para centralizar e não ser coberto pelo Header */
