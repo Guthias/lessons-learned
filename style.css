@@ -103,6 +103,24 @@ main h2 {
   text-align: justify;
 }
 
+/* Estilos referentes a Tabela */
+table {
+  border: 3px solid black;
+  width: 100%;
+}
+
+table * {
+  border: 3px solid black;
+}
+
+table tr {
+  text-align: center;
+}
+
+table td , table th {
+  padding: 15px 20px;
+}
+
 footer {
   background-color: rgb(34, 46, 80);
   padding: 20px;
