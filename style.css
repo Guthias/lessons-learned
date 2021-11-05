@@ -107,6 +107,13 @@ main h2 {
   text-align: justify;
 }
 
+#licoes_aprendidas , #licoes_a_aprender {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 30px;
+}
+
 /* Estilos referentes a Tabela */
 table {
   border: 3px solid black;
